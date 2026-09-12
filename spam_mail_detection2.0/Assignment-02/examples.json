@@ -1,0 +1,42 @@
+[
+  {
+    "request": {
+      "message": "Congratulations! You won a free iPhone. Claim your reward now."
+    },
+    "response": {
+      "class": "spam",
+      "confidence": 0.9437,
+      "explanation": "The prediction was influenced mainly by: reward, claim, free."
+    }
+  },
+  {
+    "request": {
+      "message": "Your bank account is locked. Verify your password and OTP immediately."
+    },
+    "response": {
+      "class": "phishing",
+      "confidence": 0.8796,
+      "explanation": "The prediction was influenced mainly by: password, verify, account."
+    }
+  },
+  {
+    "request": {
+      "message": "Can you send me the notes after class?"
+    },
+    "response": {
+      "class": "ham",
+      "confidence": 0.9507,
+      "explanation": "The prediction was influenced mainly by: class, notes."
+    }
+  },
+  {
+    "request": {
+      "message": "Your parcel is on hold. Click the verification link and pay the delivery fee."
+    },
+    "response": {
+      "class": "phishing",
+      "confidence": 0.9885,
+      "explanation": "The prediction was influenced mainly by: verification, fee, verification link."
+    }
+  }
+]
