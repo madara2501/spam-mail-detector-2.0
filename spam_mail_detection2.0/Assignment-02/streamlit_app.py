@@ -6,7 +6,7 @@ import pandas as pd
 # CONFIGURATION
 # ============================================================
 
-API_URL = "http://127.0.0.1:5000"
+API_URL = "https://spam-mail-detector-2-0-3.onrender.com"
 
 st.set_page_config(
     page_title="Spam Detector 2.0",
